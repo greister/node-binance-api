@@ -1,4 +1,5 @@
-const binance = require('../node-binance-api.js');
+const Binance = require('../node-binance-api.js');
+var binance = new Binance();
 binance.options({
   'APIKEY':'<api key>',
   'APISECRET':'<api secret>'
